@@ -110,7 +110,7 @@ function Portfolio() {
                             </a>
                         </div>
                         <div className="card">
-                            <a target="_blank" rel="noopener noreferrer" href="https://epic-gates-fbeaa4.netlify.app/">
+                            <a target="_blank" className='links' rel="noopener noreferrer" href="https://epic-gates-fbeaa4.netlify.app/">
                                 <img src={project3} alt="Project 3" />
                                 <div className="card-content">
                                     <h3><span>Post stories</span></h3>
