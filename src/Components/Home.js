@@ -122,17 +122,17 @@ function Portfolio() {
                             </a>
                         </div>
                     </div>
+                    <div className="more-projects">
+                        <p>This is a sample of my projects. You can check out my GitHub for all of my projects:</p>
+                        <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
+                    </div>
+                    <div style={{ minHeight: "50px" }}></div>
                 </div>
-                <div className="more-projects">
-                    <p>This is a sample of my projects. You can check out my GitHub for all of my projects:</p>
-                    <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
-                </div>
-                <div style={{ minHeight: "50px" }}></div>
-                <footer>
-                    <p>&copy; 2024 Ashok. All rights reserved. Built with coffee and code.</p>
-                    <p>Disclaimer: No bugs were harmed in the making of this website.</p>
-                </footer>
             </div>
+            <footer>
+                <p>&copy; 2024 Ashok. All rights reserved. Built with coffee and code.</p>
+                <p>Disclaimer: No bugs were harmed in the making of this website.</p>
+            </footer>
         </animated.div>
     );
 }

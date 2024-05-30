@@ -239,3 +239,24 @@ ul {
         height: 18px;
     }
 }
+
+/* Media query for large screens (e.g., desktops) */
+@media (min-width: 1200px) {
+    .project-cards {
+        gap: 150px;
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .project-cards {
+        gap: 100px;
+    }
+}
+
+/* Media query for small screens (e.g., phones) */
+@media (max-width: 767px) {
+    .project-cards {
+        gap: 50px;
+    }
+}
