@@ -127,7 +127,7 @@ function Portfolio() {
                     <p>This is a sample of my projects. You can check out my GitHub for all of my projects:</p>
                     <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
                 </div>
-                <div style={{ minHeight: "10px" }}></div>
+                <div style={{ minHeight: "50px" }}></div>
             </div>
             <footer>
                 <p>&copy; 2024 Ashok. All rights reserved. Built with coffee and code.</p>
