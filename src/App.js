@@ -10,11 +10,13 @@ function App() {
 
   return (
     <Provider store={store}>
-
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes>
-
+      <Router>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+          </Routes>
+        </Suspense>
+      </Router>
     </Provider>
   );
 }
