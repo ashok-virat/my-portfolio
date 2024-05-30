@@ -124,6 +124,12 @@ ul {
     color: white;
 }
 
+
+.link {
+    color: white;
+    padding-left: 10px;
+}
+
 .projects {
     text-align: center;
     margin: 20px 0;

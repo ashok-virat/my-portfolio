@@ -23,15 +23,15 @@ function Portfolio() {
                         <ul>
                             <li className='profile-item'>
                                 <img className='linkedIn' src={Linked} alt="LinkedIn" />
-                                <a className='links' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ashok-arumugam-3942ab167/'>Ashok Arumugam</a>
+                                <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ashok-arumugam-3942ab167/'>Ashok Arumugam</a>
                             </li>
                             <li className='profile-item'>
                                 <img className='linkedIn' src={Github} alt="Github" />
-                                <a className='links' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a>
+                                <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a>
                             </li>
                             <li className='profile-item'>
                                 <img className='linkedIn' src={Gmail} alt="Gmail" />
-                                <a className='links' target="_blank" rel="noopener noreferrer" href='mailto:aruashok17@gmail.com'>aruashok17@gmail.com</a>
+                                <a className='link' target="_blank" rel="noopener noreferrer" href='mailto:aruashok17@gmail.com'>aruashok17@gmail.com</a>
                             </li>
                             <li className='profile-item'>
                                 <img className='linkedIn' src={phone} alt="Phone" />
@@ -125,7 +125,7 @@ function Portfolio() {
                 </div>
                 <div className="more-projects">
                     <p>This is a sample of my projects. You can check out my GitHub for all of my projects:</p>
-                    <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='links' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
+                    <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
                 </div>
                 <div style={{ minHeight: "10px" }}></div>
             </div>
