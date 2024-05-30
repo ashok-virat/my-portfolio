@@ -128,11 +128,11 @@ function Portfolio() {
                     <div className='git'>  <img className='linkedIn' src={Github} alt="Github" /> <a className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/ashok-virat'>Github</a></div>
                 </div>
                 <div style={{ minHeight: "50px" }}></div>
+                <footer>
+                    <p>&copy; 2024 Ashok. All rights reserved. Built with coffee and code.</p>
+                    <p>Disclaimer: No bugs were harmed in the making of this website.</p>
+                </footer>
             </div>
-            <footer>
-                <p>&copy; 2024 Ashok. All rights reserved. Built with coffee and code.</p>
-                <p>Disclaimer: No bugs were harmed in the making of this website.</p>
-            </footer>
         </animated.div>
     );
 }
