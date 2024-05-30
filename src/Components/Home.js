@@ -17,9 +17,9 @@ function Portfolio() {
     return (
         <animated.div style={props}>
             <div className='parent'>
+                <h1 style={{ textAlign: 'center' }}>Ashok A</h1>
                 <section id="hero">
                     <div className='header-text'>
-                        <h1>Ashok A</h1>
                         <ul>
                             <li className='profile-item'>
                                 <img className='linkedIn' src={Linked} alt="LinkedIn" />
